@@ -30,7 +30,7 @@ function FormExample() {
             defaultValue=""
           />
         </Form.Group>
-        <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+    
         <Form.Group as={Col} md="4" controlId="validationCustom02">
           <Form.Label>Last name</Form.Label>
           <Form.Control
@@ -39,7 +39,7 @@ function FormExample() {
             placeholder="Last name"
             defaultValue=""
           />
-          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+       
         </Form.Group>
         <Form.Group as={Col} md="4" controlId="validationCustomUsername">
           <Form.Label>Username</Form.Label>
